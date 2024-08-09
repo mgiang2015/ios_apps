@@ -18,12 +18,17 @@ struct RegisterView: View {
                 
                 // Login Form
                 Form {
+                    if (viewModel.hasError()) {
+                        Text(viewModel.errorMessage).foregroundColor(.red)
+                    }
+                    
                     TextField("Full name", text: $viewModel.fullName).textFieldStyle(DefaultTextFieldStyle()).autocorrectionDisabled()
                     TextField("Email address", text: $viewModel.email).textFieldStyle(DefaultTextFieldStyle()).autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                     SecureField("Password", text: $viewModel.password).textFieldStyle(DefaultTextFieldStyle())
                     
                     TLButton(title: "Register", color: .blue) {
                         // register
+                        viewModel.register()
                     }
                 }
                 

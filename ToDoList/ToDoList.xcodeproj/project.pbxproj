@@ -11,7 +11,6 @@
 		D50003BF2C4A656800A0AEBC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50003BE2C4A656800A0AEBC /* MainView.swift */; };
 		D50003C12C4A656900A0AEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50003C02C4A656900A0AEBC /* Assets.xcassets */; };
 		D50003C42C4A656900A0AEBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50003C32C4A656900A0AEBC /* Preview Assets.xcassets */; };
-		D50003CB2C4A668900A0AEBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D50003CA2C4A668900A0AEBC /* GoogleService-Info.plist */; };
 		D50003CE2C4A685C00A0AEBC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D50003CD2C4A685C00A0AEBC /* FirebaseAuth */; };
 		D50003D02C4A685C00A0AEBC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D50003CF2C4A685C00A0AEBC /* FirebaseFirestore */; };
 		D50003D22C4A685C00A0AEBC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D50003D12C4A685C00A0AEBC /* FirebaseFirestoreSwift */; };
@@ -33,6 +32,7 @@
 		D50003F82C4A763000A0AEBC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50003F72C4A763000A0AEBC /* HeaderView.swift */; };
 		D58DB5582C6482B500370E50 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58DB5572C6482B500370E50 /* TLButton.swift */; };
 		D5E52ADB2C64AF7D00D99421 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E52ADA2C64AF7D00D99421 /* Extensions.swift */; };
+		D5E52ADD2C6600EA00D99421 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5E52ADC2C6600EA00D99421 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +41,6 @@
 		D50003BE2C4A656800A0AEBC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D50003C02C4A656900A0AEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D50003C32C4A656900A0AEBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D50003CA2C4A668900A0AEBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D50003D72C4A707D00A0AEBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D50003D82C4A716900A0AEBC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D50003DA2C4A717E00A0AEBC /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		D50003DC2C4A719200A0AEBC /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
@@ -61,6 +59,7 @@
 		D50003F72C4A763000A0AEBC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		D58DB5572C6482B500370E50 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		D5E52ADA2C64AF7D00D99421 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D5E52ADC2C6600EA00D99421 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Other/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +95,11 @@
 		D50003BB2C4A656800A0AEBC /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				D5E52ADC2C6600EA00D99421 /* GoogleService-Info.plist */,
 				D50003D62C4A707400A0AEBC /* Other */,
 				D50003D52C4A705D00A0AEBC /* Models */,
 				D50003D42C4A704C00A0AEBC /* ViewModels */,
 				D50003D32C4A703700A0AEBC /* Views */,
-				D50003CA2C4A668900A0AEBC /* GoogleService-Info.plist */,
 				D50003C22C4A656900A0AEBC /* Preview Content */,
 			);
 			path = ToDoList;
@@ -156,7 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				D50003C02C4A656900A0AEBC /* Assets.xcassets */,
-				D50003D72C4A707D00A0AEBC /* GoogleService-Info.plist */,
 				D50003BC2C4A656800A0AEBC /* ToDoListApp.swift */,
 				D5E52ADA2C64AF7D00D99421 /* Extensions.swift */,
 			);
@@ -240,7 +238,7 @@
 			files = (
 				D50003C42C4A656900A0AEBC /* Preview Assets.xcassets in Resources */,
 				D50003C12C4A656900A0AEBC /* Assets.xcassets in Resources */,
-				D50003CB2C4A668900A0AEBC /* GoogleService-Info.plist in Resources */,
+				D5E52ADD2C6600EA00D99421 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
